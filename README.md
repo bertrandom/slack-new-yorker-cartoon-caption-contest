@@ -58,3 +58,7 @@ But it is expected to run as a cronjob, see `crontab` for an example.
 ## notes
 
 As of publication, the dataset starts with cartoon 510 and goes to 825. 510 starts on 2022-11-04 and it will increment each day after that. That means that this should run for ~315 days, but if you call `bin/retrieve_cartoons.sh` occasionally it may go longer.
+
+## LICENSE
+
+MIT
