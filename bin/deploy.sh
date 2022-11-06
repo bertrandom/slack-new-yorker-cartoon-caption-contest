@@ -16,4 +16,5 @@ DATA_CARTOONS_DIR="$(realpath "$SCRIPT_DIR/../data/cartoons")"
 
 rsync --exclude-from=.gitignore --exclude=.git -av $MAIN_DIR/ bertrand@server:/web/slack-new-yorker-cartoon-caption-contest/
 rsync -av $DATA_CARTOONS_DIR/ bertrand@server:/web/slack-new-yorker-cartoon-caption-contest/data/cartoons/
-scp config/prod.json5 bertrand@server:/web/slack-new-yorker-cartoon-caption-contest/config/
+scp $MAIN_DIR/config/prod.json5 bertrand@server:/web/slack-new-yorker-cartoon-caption-contest/config/
+scp $MAIN_DIR/config/dev.json5 bertrand@server:/web/slack-new-yorker-cartoon-caption-contest/config/

@@ -37,14 +37,6 @@ const chatPostMessageResponse = await fetch(
                 channel: config.slack.channel_id,
                 "blocks": [
                     {
-                        "type": "section",
-                        "text": {
-                            "type": "plain_text",
-                            "text": ":thread:",
-                            "emoji": true
-                        }
-                    },
-                    {
                         "type": "image",
                         "title": {
                             "type": "plain_text",
