@@ -1,3 +1,7 @@
 {
     "baseUrl": "https://slack-new-yorker-cartoon-caption-contest.bert.org/",
+    "slack": {
+        "bot_token": "xoxb-xxx",
+        "channel_id": "Cxxx",
+    },
 }

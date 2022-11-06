@@ -5,3 +5,5 @@ config/dev.json5
 config/prod.json5
 data/*
 !data/.gitkeep
+log/*
+!log/.gitkeep

@@ -1,7 +1,6 @@
 {
 	"imports": {
 		"luxon": "https://cdn.skypack.dev/luxon@v3.0.3",
-		"pamplemousse": "https://deno.land/x/pamplemousse@1.6/mod.ts",
-		"sqlite": "https://deno.land/x/sqlite@v3.5.0/mod.ts"
+		"pamplemousse": "https://deno.land/x/pamplemousse@1.6/mod.ts"
 	}
 }
